@@ -24,5 +24,9 @@ exports.greeting = greeting;
 
 function greeting(name) {
   return 'hello' + name;
-} },})
+}
+
+var demoFn = function demoFn(a, b) {
+  console.log(a + b);
+}; },})
         
